@@ -1,0 +1,26 @@
+{
+  "name": "sass_design",
+  "version": "1.0.0",
+  "description": "landing page for sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirjhor3029/learn_design.git"
+  },
+  "author": "Nirjhor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirjhor3029/learn_design/issues"
+  },
+  "homepage": "https://github.com/Nirjhor3029/learn_design#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}
